@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    background-color:azure;
+}
+
+.header {
+    background-color: pink;
+    height: 15%;
+    width: 100%;
+}
+
+.headerR {
+    height: 100%;
+}
+
+#formH {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.yellowglow:hover {
+    background-color:khaki;
+}
+
+.desc {
+    color:gray;
+    font-size: small;
+}
+
+.large {
+    width: 100%;
+}
+
+.error {
+    position: relative;
+}
+
+    .error::after {
+    
+        position:absolute;
+        top:0;
+        left:96%;
+        content:"X";
+        color:white;
+        font-size:15px;
+        text-align:center;
+        line-height:18px;
+        display:inline-block;
+        width:18px;
+        height:18px;
+        background-color:red;
+    
+    }
